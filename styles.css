@@ -1,11 +1,11 @@
 body {
-  background-color: #FFF;
+  background-color: #77E6FD;
   margin: 0; 
 }
 
 /* Header */
 header {
-  background-color: #FFC0CB;
+  background-color: #6BE3D7;
   padding: 20px;
 }
 
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFC0CB;
+  color: #669966;
 }
 
 /* Contenido */
@@ -72,7 +72,7 @@ main {
 
 /* Footer */
 footer {
-  background-color: #FFC0CB;
+  background-color: #6BE3D7;
   padding: 20px;
   text-align: center;
 }
