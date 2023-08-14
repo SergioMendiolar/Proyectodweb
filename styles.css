@@ -2,7 +2,7 @@ body {
   /*background-color: #263838;*/
   background: linear-gradient(to bottom, #263838, #59A3A2);
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -29,14 +29,12 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
-  
 }
 
 nav ul li a {
-  color: #FFF;git 
+  color: #FFF;
   text-decoration: none;
   font-weight: bold;
- 
 }
 
 nav ul li a:hover {
@@ -48,7 +46,6 @@ main {
   padding: 20px;
   text-align: center;
   color: #FFF;
-  
 }
 
 .grid-container {
@@ -86,7 +83,6 @@ footer p {
   font-weight: bold;
 }
 
-
 /* Media queries */
 @media screen and (max-width: 768px) {
   h1 {
@@ -105,3 +101,28 @@ footer p {
   gap: 20px;
 }
 
+/* Estilos específicos para la página nosotros.html */
+body.nosotroshtml main.grid-container {
+  grid-template-columns: 1fr; /* Cambio a una sola columna */
+  gap: 20px;
+  text-align: center;
+}
+
+body.nosotroshtml .grid-item img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body.nosotroshtml .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: auto 0; /* Añadido para centrar verticalmente el contenido */
+}
+
+body.nosotroshtml .contenido p {
+  margin: 0 20%; /* Reducción de margen horizontal */
+}
