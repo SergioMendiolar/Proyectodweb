@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-  background-color: linear-gradient(to bottom, #263838, #59A3A2);
+  background-color: linear-gradient(to bottom, #263838, hsl(0, 0%, 99%));
   padding: 20px;
 }
 
@@ -97,5 +97,11 @@ footer p {
     display: block;
     margin-bottom: 10px;
   }
+}
+
+.ferti1-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Divide en 1 tercio y 2 tercios */
+  gap: 20px;
 }
 
