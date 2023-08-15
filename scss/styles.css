@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to bottom, #263838, #59A3A2);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: linear-gradient(to bottom, #263838, hsl(0, 0%, 99%));
+  padding: 20px;
+}
+header h1 {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: #669966;
+}
+
+/* Contenido */
+main {
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+}
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+main .grid-item {
+  position: relative;
+}
+main .grid-item img {
+  width: 100%;
+  height: auto;
+}
+main .grid-item p {
+  margin-bottom: 10px;
+}
+main .grid-item a.btn-primary {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background-color: #263838;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  color: #FFF;
+  font-weight: bold;
+}
+footer .redes-sociales a {
+  color: #FFF;
+}/*# sourceMappingURL=styles.css.map */
