@@ -1,0 +1,93 @@
+$background-color: #263838;
+$primary-color: #59A3A2;
+$accent-color: #669966;
+
+body {
+  background: linear-gradient(to bottom, $background-color, $primary-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: linear-gradient(to bottom, $background-color, hsl(0, 0%, 99%));
+  padding: 20px;
+  
+  h1 {
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    li {
+      display: inline;
+      margin-right: 20px;
+      
+      a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: bold;
+        
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+/* Contenido */
+main {
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    position: relative;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    a.btn-primary {
+      width: fit-content;
+      padding: 0.25rem 0.5rem;
+      font-size: 14px;
+    }
+  }
+}
+
+/* Footer */
+footer {
+  background-color: $background-color;
+  padding: 20px;
+  text-align: center;
+  
+  p {
+    color: #FFF;
+    font-weight: bold;
+  }
+  
+  .redes-sociales a {
+    color: #FFF;
+  }
+}
