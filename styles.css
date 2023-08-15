@@ -126,3 +126,29 @@ body.nosotroshtml .contenido {
 body.nosotroshtml .contenido p {
   margin: 0 20%; /* Reducción de margen horizontal */
 }
+
+.ferti-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Divide en 1 tercio y 2 tercios */
+  gap: 20px;
+}
+
+.ferti-container .grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ferti-container .descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centrar contenido horizontalmente */
+}
+
+/* Ajustar el tamaño del botón "Añadir al carrito" */
+.ferti-container .descripcion button.btn-primary {
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  font-size: 14px;
+}
