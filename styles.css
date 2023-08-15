@@ -1,16 +1,12 @@
+/* Estilos globales */
 body {
-  /*background-color: #263838;*/
   background: linear-gradient(to bottom, #263838, #59A3A2);
-  background-image: url('./IMG/planta.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  
 }
-/* Header */
+
+/* Estilos del encabezado */
 header {
   background-color: linear-gradient(to bottom, #263838, hsl(0, 0%, 99%));
   padding: 20px;
@@ -45,7 +41,7 @@ nav ul li a:hover {
   color: #669966;
 }
 
-/* Contenido */
+/* Estilos del contenido principal */
 main {
   padding: 20px;
   text-align: center;
@@ -56,10 +52,6 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-}
-
-#myCarousel {
-  margin-top: 20px;
 }
 
 .grid-item {
@@ -75,7 +67,12 @@ main {
   margin-bottom: 10px;
 }
 
-/* Footer */
+/* Estilos del carrusel */
+#myCarousel {
+  margin-top: 20px;
+}
+
+/* Estilos del pie de página */
 footer {
   background-color: #263838;
   padding: 20px;
@@ -87,17 +84,11 @@ footer p {
   font-weight: bold;
 }
 
-
 footer .redes-sociales a {
   color: #FFF;
 }
 
-/* Media queries */
-@media screen and (max-width: 768px) {
-  /* Estilos para pantallas más pequeñas */
-}
-
-/* Media queries */
+/* Estilos de los media queries */
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
@@ -109,15 +100,9 @@ footer .redes-sociales a {
   }
 }
 
-.ferti1-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr; /* Divide en 1 tercio y 2 tercios */
-  gap: 20px;
-}
-
 /* Estilos específicos para la página nosotros.html */
 body.nosotroshtml main.grid-container {
-  grid-template-columns: 1fr; /* Cambio a una sola columna */
+  grid-template-columns: 1fr;
   gap: 20px;
   text-align: center;
 }
@@ -134,16 +119,17 @@ body.nosotroshtml .contenido {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin: auto 0; /* Añadido para centrar verticalmente el contenido */
+  margin: auto 0;
 }
 
 body.nosotroshtml .contenido p {
-  margin: 0 20%; /* Reducción de margen horizontal */
+  margin: 0 20%;
 }
 
+/* Estilos de contenedor de productos */
 .ferti-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Divide en 1 tercio y 2 tercios */
+  grid-template-columns: 1fr 2fr;
   gap: 20px;
 }
 
@@ -157,12 +143,14 @@ body.nosotroshtml .contenido p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Centrar contenido horizontalmente */
+  align-items: center;
 }
 
-/* Ajustar el tamaño del botón "Añadir al carrito" */
+/* Estilos del botón "Añadir al carrito" */
 .ferti-container .descripcion button.btn-primary {
   width: fit-content;
   padding: 0.25rem 0.5rem;
   font-size: 14px;
 }
+
+
