@@ -1,11 +1,15 @@
 body {
   /*background-color: #263838;*/
   background: linear-gradient(to bottom, #263838, #59A3A2);
+  background-image: url('./IMG/planta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  
 }
-
 /* Header */
 header {
   background-color: linear-gradient(to bottom, #263838, hsl(0, 0%, 99%));
@@ -81,6 +85,16 @@ footer {
 footer p {
   color: #FFF;
   font-weight: bold;
+}
+
+
+footer .redes-sociales a {
+  color: #FFF;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
 }
 
 /* Media queries */
